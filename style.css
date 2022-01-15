@@ -1,0 +1,41 @@
+.table-responsive{
+    
+    display: flex;
+   justify-content: center;
+ 
+}
+
+.table-responsive input{
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: rgb(137, 163, 202);
+}
+.table-responsive input.active{
+    background-color: rgb(137, 163, 202);
+    border: 1px solid  black;
+    color: white;
+   
+}
+.table-responsive input:hover{
+    background-color: #ddd;
+}
+.table-responsive input:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.table-responsive input:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#buttons{
+   display: flex;
+   padding: 10px;
+   justify-content: center;
+}
+@media only screen and (max-width: 500px) {
+  .table-responsive input{
+      padding: 4px 8px;
+
+  }
+}
