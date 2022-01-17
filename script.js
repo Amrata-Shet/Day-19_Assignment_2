@@ -21,7 +21,7 @@ document.getElementById(i).disabled=false;
 }
 }
 
-//Assign previous and other pagination values to First,Last,Next,Previous and other pagination button's click
+//Assign pagination values to First,Last,Next,Previous and other pagination button's click
 if(ele.value=='Previous'){
 prev=prev-1;
 no=(prev)*10;
